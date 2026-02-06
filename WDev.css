@@ -16,6 +16,8 @@ header img {
             border-radius: 50%;
             display: block;
             margin: 0 auto;
+            box-shadow: 2px 2px 4px rgba(145, 48, 35, 0.5);
+            position: absolute;
         }
         
 h1{
