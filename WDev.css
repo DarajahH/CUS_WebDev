@@ -2,18 +2,14 @@ body{
     font-family: 'Impact', 'Arial Narrow Bold', sans-serif;
     margin-top: 20px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Yggdrasil.jpg");
-    background: linear-gradient(to top, skyblue, blue);
-    background-repeat: no repeat;
-    background-attachment: fixed;
+    background-blend-mode: linear-gradient(to top, skyblue, blue);
     
     }
 
-
-
-header img {
+header img{
             border-radius: 50%;
             display: block;
-            margin: 0 auto;
+            margin: 5px auto;
             box-shadow: 2px 2px 4px rgba(145, 48, 35, 0.5);
             position: absolute;
         }
@@ -40,7 +36,7 @@ p{
     margin-bottom: 15px;
 }
 
-a{
+a:hover{
     color: #c94730;
     text-decoration: none;
 }
