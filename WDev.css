@@ -1,12 +1,19 @@
 body{
-    background-image: url=(".jpg");
+    font-family: 'Impact', 'Arial Narrow Bold', sans-serif;
+    margin-top: 20px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Yggdrasil.jpg");
     background: linear-gradient(to top, skyblue, blue);
     background-repeat: no repeat;
     background-attachment: fixed;
     
     }
 
-
+header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        
 h1{
 
     font-size: 2.5em;
@@ -32,3 +39,4 @@ a{
     color: #1a73e8;
     text-decoration: none;
 }
+
