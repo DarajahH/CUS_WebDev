@@ -6,8 +6,39 @@ body{
     background-repeat: no repeat;
     background-attachment: fixed;
     
-    }
+}
 
+table{
+            width: 100%;
+            border-collapse: collapse;
+}
+
+table, th, td{
+            border: 1px solid hsl(108, 96%, 51%);
+}
+
+th, td{
+            padding: 8px;
+            text-align: left;
+}
+
+nav{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #000808;
+            padding: 10px;
+            border-radius: 5px;
+}
+
+nav ul{
+            padding: 34px;
+}
+
+nav ul li{
+            margin: auto;
+            margin-bottom: 10px;
+} 
 
 
 header img{
@@ -16,7 +47,7 @@ header img{
             margin: 0 auto;
             box-shadow: 2px 2px 4px rgba(145, 48, 35, 0.5);
             position: absolute;
-        }
+}
         
 h1{
 
