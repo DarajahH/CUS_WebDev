@@ -2,7 +2,7 @@ body{
     font-family: 'Impact', 'Arial Narrow Bold', sans-serif;
     margin-top: 20px;
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Yggdrasil.jpg");
-    background: linear-gradient(to top, skyblue, blue); -->
+    background: linear-gradient(to top, rgb(182, 63, 48), rgb(209, 10, 60));
     background-repeat: no repeat;
     background-attachment: fixed;
     
