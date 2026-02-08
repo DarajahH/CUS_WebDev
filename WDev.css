@@ -1,5 +1,6 @@
 .sbox{
     display: flex;
+    border-radius: 12px; 
     align-items: top;
     justify-content: center;
     min-height: 5vh;
