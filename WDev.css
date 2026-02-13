@@ -41,7 +41,7 @@ nav{
             position: fixed;
             top: 20px;
             right: 20px;
-            background: #cf2139;
+            background: #471e06;
             padding: 10px; 
             border-radius: 5px;
 }
@@ -89,7 +89,7 @@ p{
 }
 
 a{
-    color: #c94730;
+    color: #5e390c;
     text-decoration: none;
 }
 
