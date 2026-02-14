@@ -1,93 +1,71 @@
 
-<html>
+<html lang="en">
 
 <head>
-
-    <link rel=":stylesheet" href="WDev.css">
     
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Project Sunshine</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #a11c1c;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        header img {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        section {
-            background: #033c44;
-            padding: 15px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        table, th, td {
-            border: 1px solid hsl(108, 96%, 51%);
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-        nav {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: #440319;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 34;
-        }
-        nav ul li {
-            margin-bottom: 10px;
-        } </style>
+    <link rel="stylesheet" href="WDev_Mobile.css">
+    <link rel="stylesheet" href="WDev.css">
 
     <title>My Profile Page</title>
     <h4> CUS_1172</h4>
 
 </head>
+
 <body id="profile">
 
-    <header>
- <img src="https://hips.hearstapps.com/vidthumb/images/dune-timothee-chalamet-1599668649.jpg?crop=0.5626168224299065xw:1xh;center,top&resize=980:*" alt="Profile Picture">
-        <h1>Darajah H</h1>
-        <p>| Computer Science Major |</p>
+    <style>
+        body {
+           background-image: url("https://upload.wikimedia.org/wikipedia/commons/b/b9/Yggdrasil.jpg");
+           background-size: cover;
+           background-position: center;
+        }
+
+         .navbar-collapse:hover {
+    display: block !important;
+  }
+        </style>
+
+    <header style="text-align: center;">
+        <img src="https://hips.hearstapps.com/vidthumb/images/dune-timothee-chalamet-1599668649.jpg?crop=0.5626168224299065xw:1xh;center,top&resize=980:*" alt="Profile Picture" style="max-width: 200px; border-radius: 50%;">
+        <div class="container-fluid page-header">
+            <h1>Darajah H</h1>
+            <p><span style="text-align-last: center;">| Computer Science Major |</span></p>
+        </div>
     </header>
-
-    <section id="personal">
+    
+    <section  class="box" id="experience">
+    <div class="col-md-13" class="container-Fluid">
         <h2>About Me</h2>
- </section>
 
-    <section>
+    
         <p>Hi, My Name is Darajah and I'm a computer science Major at St. John's University! 
             I am Currently working towards my first Bachelor's Degree here and am very excited to earn another Degree in 4 years from now.
         </p>
         
-            
-        <h2>Projects</h2>
+            <div class="sbox">
+        <h2 >Projects</h2>
+       
         <ul>
             <li>Private Floor Network Setup for Lab Testing</li>
             <li>Intern on 15th Street Substation Expansion Project</li>
         </ul>
-        
-        <section id="skills">
+            
+    </div>
+       </section>
+  
+
+
+
+        <section class="box" id="skills">
         <h2>Programming Skills</h2>
-        <table>
+        <table class="table-hover">
             <tr>
                 <th>Language</th>
                 <th>Experience Level</th>
@@ -110,22 +88,30 @@
             </tr>
         </table>
     </section>
+   
     
+    <div class="box">
     <section id="interests">
-         <h2>Interests</h2>
-        <ul>
-            <li>Drawing</li>
-            <li>Writing</li>
-        </ul>
-        
-        <p> Drawing and Writing are my two main interests outside of Computer Science. I would really love to write a Screenplay, work on television, or be a <span style= "color: blue;" director. </span>
-            I spend a good amount of time Outdoors in the Wilderness as well. Since September, I've completed two of the hikes I'd wanted to. (Mt. katerskill | Watkins Glen Trail.)
-        </p> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Interests</h2>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Drawing</li>
+                        <li class="list-group-item">Writing</li>
+                    </ul>
+                    
+                    <p class="mt-3"> Drawing and Writing are my two main interests outside of Computer Science. I would really love to write a Screenplay, work on television, or be a <span style= "color: blue;">director</span>
+                        I spend a good amount of time Outdoors in the Wilderness as well. Since September, I've completed two of the hikes I'd wanted to. (Mt. katerskill | Watkins Glen Trail) I have a lot of hikes on my list and I'm looking forward to completing them all.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
-
-</section>
+    </div>
     
-    <section id="favorites">
+    
+    <section class="box" id="favorites">
          <h2>Favorites</h2>
         
         <h3>Music Artist</h3>
@@ -147,7 +133,7 @@
         <h3>A Song From Each Artist</h3>
         
         <ul>
-            <li>BUSSDOWN</li>
+            <li> <span style="color: rgb(0, 140, 255); text-decoration: underline;">BUSSDOWN</span></li>
             <li>Lee</li>
             <li>I Hope You Find Your Way Home</li>
             <li>Mirror</li>
@@ -163,12 +149,14 @@
         <p> Music Is one of the most personal Things to me and it can fill me every emotion I've ever had. 
             It's truly one of my favorite things in life and I'd love to die With XM6s On. (or Airpods.)</p> 
 
-        <div class="videos">
+
+
+        <div class="container-fluid" class="videos">
             <div>
                 <h3>Favorite Music Video</h3>
-                <iframe width="300" height="200" src="https://www.youtube.com/watch?v=K13sME5pqKg&list=RDK13sME5pqKg&start_radio=1" title="MV" allowfullscreen>BUSSDOWN</iframe>
-                
-            </div>
+                <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=K13sME5pqKg&list=RDK13sME5pqKg?autoplay=1&mute=1"></iframe>
+                </div>
 
             <div>
                 <h3>Favorite Movie</h3>
@@ -178,54 +166,55 @@
              <div>
                 <h3>Favorite Anime</h3>
                  <h4>FullMetal Alchemist</h4>
-                <iframe width="300" height="200" src="https://www.youtube.com/watch?v=dE1fqsapSAc&list=RDdE1fqsapSAc&start_radio=1" title="anime-a" allowfullscreen></iframe>
+                <iframe width="300" height="200" src="https://www.youtube.com/watch?v=dE1fqsapSAc&list=RDdE1fqsapSAc" title="anime-a" allowfullscreen></iframe>
             </div>
         </div>
         
     </section>
 
-    <section id="websites">
+    <section class="box" id="websites">
         <h2>Favorite Websites</h2>
-        <ul>
-            <li>
+        <div>
                 <h1>Clothing</h1>
-        <p><a href="https://www.woolmark.com/fibre/what-is-merino-wool/" target="_blank">Woolmark.com</p>
-                </li>
-        </ul>
-    </section>
-
-<div class="ContactInfo" id="email">
-    <section>
-        <div id="contact">
-        <h2>Contact Information</h2>
-
-       <p><strong>Email:</strong> rajahnikon@gmail.com</p>
-
-        <form>Form</form>
-
+        <p><a href="https://www.woolmark.com/fibre/what-is-merino-wool/">Woolmark.com</a></p> 
+        
         </div>
     </section>
- </div>
 
+    <div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="100"
+  aria-valuemin="0" aria-valuemax="100" style="width:100%">
+    100% Complete
+  </div>
+</div>
+   
+   
+<nav class="navbar navbar-inverse" style="position: fixed; top: 0; width: 100%; z-index: 1000;">
+   <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar" class="badge">7</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Menu</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#favorites">Favorites</a></li>
+        <li><a href="#websites">Websites</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-<nav>
-
-    
-        <h2>Menu</h2>
-        <ul>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#personal">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#interests">Interests</a></li>
-            <li><a href="#favorites">Favorites</a></li>
-            <li><a href="#websites">Websites</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    
     <footer>
-        <p style="text-align: center; font-size: 0.8em; color: #777;">
+        <p style="text-align: center; font-size: 0.8em; color: #4e3f3f;">
 
         &copy; 2026 Harriott
         </p>
