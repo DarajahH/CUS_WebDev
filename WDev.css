@@ -1,41 +1,26 @@
-body{
-    min-height: fit-content;
-    border: 2px solid #000000;
-    display: flex;
-    gap: 12px;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-
-}
-
-
-
 .sbox{
     display: flex;
-    border-radius: 17px; 
-    align-items: center;
+    border-radius: 12px; 
+    align-items: top;
+    padding-left: 10px;
     justify-content: center;
-    align-content: center;    min-height: 10px;
-    background-color: #f6cdcd; 
-    flex-direction: column;
-    
+    min-height: 5vh;
+    background-color: #bd5656; 
+
 }
 
 .box{
-    flex-shrink: 0;
-     background-color: #fff5f8; 
+     background-color: #fff; 
     border-radius: 12px; 
     box-shadow: 
         0 1px 3px rgba(0, 0, 0, 0.1), 
         0 4px 6px rgba(0, 0, 0, 0.05); 
     padding: 20px; 
-    margin: 10px; 
+    margin: 15px; 
     border: 1px solid #be5f5f; 
-    max-width: 700px; 
+    max-width: 400px; 
     font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
-    color: #000000; 
+    color: #1a1a31; 
 }
 
 table{
@@ -43,8 +28,11 @@ table{
             border-collapse: collapse;
 }
 
+table, th, td{
+            border: 1px solid hsl(41, 96%, 51%);
+}
+
 th, td{
-          border: 1px solid #ce5858;
             padding: 8px;
             text-align: left;
 }
@@ -53,37 +41,33 @@ nav{
             position: fixed;
             top: 20px;
             right: 20px;
-<<<<<<< Updated upstream
             background: #cf2139;
-=======
-            background: #effbff;
->>>>>>> Stashed changes
             padding: 10px; 
             border-radius: 5px;
 }
 
 nav ul{
-
             padding: 34px;
 }
 
 nav ul li{
-            list-style: none;
+            margin: auto;
             margin-bottom: 10px;
 } 
 
 header img{
+        text-align-last: center;
             border-radius: 50%;
+            display: inline-block !important;
             width: 80px;
             height: 80px;
             margin: 30px auto;
-            box-shadow: 2px 3px 4px rgba(131, 17, 2, 0.5);
+            box-shadow: 2px 2px 4px rgba(145, 48, 35, 0.5);
            
 }
         
 h1{
-    display: flex;
-    justify-content: center;
+
     font-size: 2.5em;
     color: #3a1812;
     text-align: center;
@@ -92,17 +76,12 @@ h1{
 }
 
 h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 2em;
     color: #1f0409;
     margin-bottom: 15px;
 }
 
 p{
-    margin: auto;
-    justify-content: center;
     font-size: 1.2em;
     line-height: 1.6;
     color: #380e12;
